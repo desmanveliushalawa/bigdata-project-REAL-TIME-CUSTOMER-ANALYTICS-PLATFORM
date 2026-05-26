@@ -263,4 +263,32 @@ Berikut ini cara untuk keluar dari root bash dan menghentikan container
 
 ## Kontak
 
-Untuk pertanyaan atau kontribusi, silakan buka *Issue* di repo ini atau hubungi Asisten Praktikum Analisis Big Data.
+Untuk pertanyaan atau kontribusi, silakan buka *Issue* di repo ini atau hubungi Asisten Praktikum Analisis Big Data.###### ✅ HDFS Verification
+- Created user directory: `/user/root/`
+- Successfully uploaded & read test file
+- Created project structure:
+  /user/root/project1/
+  ├── raw/          (incoming Kafka data)
+  ├── processed/    (cleaned data)
+  ├── analytics/    (aggregated results)
+  └── ml-output/    (ML model outputs)
+
+### Notes
+- SLF4J multiple bindings: benign warning, does not affect functionality
+- HDFS replication: 3x (default)
+- Block size: 128MB (default)
+### Day 1
+### ✅ HDFS Verification
+- Created user directory: `/user/root/`
+- Successfully uploaded & read test file
+- Created project structure:
+  /user/root/project1/
+  ├── raw/          (incoming Kafka data)
+  ├── processed/    (cleaned data)
+  ├── analytics/    (aggregated results)
+  └── ml-output/    (ML model outputs)
+
+### Notes
+- SLF4J multiple bindings: benign warning, does not affect functionality
+- HDFS replication: 3x (default)
+- Block size: 128MB (default)
