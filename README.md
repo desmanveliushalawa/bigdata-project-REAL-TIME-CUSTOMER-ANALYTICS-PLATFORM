@@ -292,3 +292,14 @@ Untuk pertanyaan atau kontribusi, silakan buka *Issue* di repo ini atau hubungi 
 - SLF4J multiple bindings: benign warning, does not affect functionality
 - HDFS replication: 3x (default)
 - Block size: 128MB (default)
+
+### ✅ Day 2: Kafka Test Completed
+- Successfully created topics: `customer_events`, `customer_transactions`
+- Producer/consumer test: **PASSED**
+- Messages sent and received in real-time
+- JSON event format validated
+
+### Test Results:
+- Sent 3 test events (`page_view`, `add_to_cart`, `purchase`)
+- All events received by consumer successfully
+- Latency: < 100ms (real-time streaming confirmed)
